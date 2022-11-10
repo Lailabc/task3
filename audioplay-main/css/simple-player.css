@@ -1,0 +1,120 @@
+
+body{
+  background-image:url(/images/color-dance.gif);
+  /* background-color:rgb(113, 50, 196); */
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ box-sizing: border-box;
+}
+
+p{
+  font-family: 'Noto Sans Mono', monospace;
+  font-size: 15px;
+  -webkit-text-fill-color: rgba(246, 68, 231, 0.718);
+}
+
+h4 {
+  font-family: 'Noto Sans Mono', monospace;
+  font-weight: 100;
+  font-size: 15px;
+  padding-bottom: 4px;
+  user-select: none;
+}
+#audioPlayer{
+  background-color:rgba(165, 6, 144, 0.514);
+  width:460px;
+  height: 650px;
+  box-shadow: 3px 10px 15px 12px rgba(228, 61, 205, 0.37) ;
+}
+#container {
+ 
+  width: 450px;
+  height: 50px;
+  background-color: rgba(209, 86, 247, 0.514);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 9px 15px 6px rgb(236 82 216 / 37%)
+}
+#button-container{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  
+}
+.button{
+ 
+  background-color:rgb(44, 33, 197);
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 20px;
+  display: inline-block;  
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 150px;
+  box-shadow: -4px 5px 15px 4px rgb(69 23 238 / 66%)
+ 
+}
+/* zoom in on hover */
+.button:hover{
+  transform: scale(1.02);
+}
+/* dimensions */
+#current-time {
+  width: 40px;
+  padding-left: 5px;
+}
+/* dimensions */
+#total-time {
+  width: 40px;
+  padding-left: 10px;
+}
+#play-pause-button {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+#seek-bar {
+  width: 150px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: blueviolet;
+}
+#img-container{
+  width: 430px;
+  height: 460px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#testimg{
+  width: 430px;
+  height: 430px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#myRange{
+  width: 100px;
+  margin-left: 30px;
+  cursor: pointer;
+  background-color: blueviolet;
+
+}
+

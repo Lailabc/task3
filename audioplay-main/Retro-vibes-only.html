@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Vibes</title>
+    <link rel="stylesheet" href="css/simple-player.css">
+    <script src="js/simple-player.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+        </style>
+</head>
+
+<body>
+    <div id="audioPlayer"> 
+        <div id="button-container">
+            <div id="track1" class="button">
+                <P>SUNRISE</P>
+            </div>
+            <div id="track2" class="button">
+                <P>SUNSET</P>
+            </div>
+            <div id="track3" class="button">
+                <P>TWILIGHT</P>
+            </div>
+        </div>
+        <div id="container">
+            <img id="play-pause-button" src="images/play.svg">
+            <h4 id="current-time">0:00</h4>
+            <h4>/</h4>
+            <h4 id="total-time">0:00</h4>
+            <input id="seek-bar" type="range" min="0" value="0" disabled />
+            <input type="range" max="100" value="50" class="volslider" id="myRange">
+
+            
+        </div>
+        <div id="img-container">
+            <img id="testimg" src="images/play-retro.gif">
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
